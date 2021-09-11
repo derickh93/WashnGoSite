@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/font-awesome/css/font-awesome.css.map"
+    />
+
+  <script defer src="node_modules/@fortawesome/fontawesome-free/js/brands.js"></script>
+  <script defer src="node_modules/@fortawesome/fontawesome-free/js/solid.js"></script>
+  <script defer src="node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"></script>
+
+    <link
+    rel="stylesheet"
+    href="node_modules/font-awesome/css/font-awesome.css"
+  />
+
+  <link
+  rel="stylesheet"
+  href="node_modules/font-awesome/css/font-awesome.min.css"
+/>
+
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap-social/bootstrap-social.css"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Wash & Go Laundry & Cleaners</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+      <div class="container nav-container">
+        <a class="navbar-brand" href="#"
+          ><img src="img/logo.png" height="100" width="100"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#nucampNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="justify-content-end collapse navbar-collapse" id="nucampNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                ><i class="fa fa-home fa-lg"></i> Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing"
+                ><i class="fas fa-dollar-sign"></i>
+                Pricing</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#schedule"
+                ><i class="fa fa-list fa-lg"></i> Schedule</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact"
+                ><i class="fa fa-address-card fa-lg"></i> Contact</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#about"
+                ><i class="fa fa-info fa-lg"></i> About</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header>
+
+      <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
+      <div class="overlay "></div>
+    
+      <!-- The HTML5 video element that will create the background video on the header -->
+      <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="./img/top.mp4" type="video/mp4">
+      </video>
+    
+      <!-- The header content -->
+      <div class="container h-100">
+        <div class="d-flex h-100 text-center align-items-center">
+          <div class="w-100 text-white">
+            <h1 class="display-3">Wash & Go</h1>
+            <p class="lead mb-0">You Have Better Ways to Spend Laundry Day.<br>Schedule and Unwind.</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="row row-content align-items-center">
+        <div class="col-12 centerElements">
+          <button type="submit" class="btn btn-primary">Get Started</button>
+          <hr>
+
+        </div>
+
+        <div class="col-12 centerElements" id="how">
+          <h3>How It Works</h3>
+          <div class="row row-content">
+            <div class="col-md-8 mx-auto">
+              <div id="homeCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#homeCarousel" data-slide-to="1"></li>
+                  <li data-target="#homeCarousel" data-slide-to="2"></li>
+              </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/howOne.PNG" alt="Breadcrumb Trail Campground" />
+                    <div class="carousel-caption">
+                      <h3>SCHEDULE YOUR PICKUP</h3>
+                      <p class="d-none d-sm-block">Place your order hassle-free on the app. Fell free to list any preferences.</p>
+                  </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="img/howTwo.PNG" alt="React Lake Campground" />
+                    <div class="carousel-caption">
+                      <h3>PREPARE YOUR BAGS</h3>
+                      <p class="d-none d-sm-block">Pack your clothes in laundry bags (or clear bags) and set them outside for pickup.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/howThree.PNG" alt="Chrome River Campground" />
+                    <div class="carousel-caption">
+                      <h3>RECEIVE CLEAN LAUNDRY</h3>
+                      <p class="d-none d-sm-block">We'll pickup your bags and deliver them back clean and folded the next day.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <a class="carousel-control-prev" href="#homeCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#homeCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="sr-only">Next</span>
+            </a>
+              <button class="btn btn-danger btn-sm" id="carouselButton">
+                  <i class="fa fa-pause"></i>
+              </button>
+              </div>
+            </div>
+          </div>
+          <hr>
+
+          </div>
+          <div class="col-12" id="pricing">
+
+          <h3>Pricing</h3>
+          <hr>
+
+          </div>
+
+          <div class="col-12" id="schedule">
+
+            <h3>Schedule</h3>
+            <hr>
+  
+            </div>
+          <div class="col-12" id="area">
+
+          <h3>Service Area</h3>
+          <hr>
+
+          </div>
+          <div class="col-12" id="faq">
+
+          <h3>FAQ</h3>
+          <hr>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 col-sm-2 offset-1">
+            <h5>Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Home</a></li>
+              <li><a href="pricing.html">Pricing</a></li>
+              <li><a href="schedule.html">Schedule</a></li>
+              <li><a href="contactus.html">Contact</a></li>
+              <li><a href="aboutus.html">About</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-sm-5 text-center">
+            <h5>Social</h5>
+            <a
+              class="btn btn-social-icon btn-instagram"
+              href="http://instagram.com/"
+              ><i class="fa fa-instagram"></i
+            ></a>
+            <a
+              class="btn btn-social-icon btn-facebook"
+              href="http://facebook.com/"
+              ><i class="fa fa-facebook"></i
+            ></a>
+            <a
+              class="btn btn-social-icon btn-twitter"
+              href="http://twitter.com/"
+              ><i class="fa fa-twitter"></i
+            ></a>
+            <a class="btn btn-social-icon btn-google" href="http://youtube.com/"
+              ><i class="fa fa-youtube"></i
+            ></a>
+          </div>
+          <div class="col-sm-4 text-center">
+            <a role="button" class="btn btn-link" href="tel:+17184792249"
+              ><i class="fa fa-phone"></i> (718) 479-2249</a
+            ><br />
+            <a
+              role="button"
+              class="btn btn-link"
+              href="mailto:waglaundry@gmail.com"
+              ><i class="fa fa-envelope-o"></i> waglaundry@gmail.com</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+    <script>$(function() {
+      $(".carousel").carousel( { interval: 2000, pause: "false" } );
+        $("#carouselButton").click(function(){
+            if ($("#carouselButton").children("i").hasClass("fa-pause")) {
+                $(".carousel").carousel("pause");
+                $("#carouselButton").children("i").removeClass("fa-pause");
+                $("#carouselButton").children("i").addClass("fa-play");
+            } else {
+                $(".carousel").carousel("cycle");
+                $("#carouselButton").children("i").removeClass("fa-play");
+                $("#carouselButton").children("i").addClass("fa-pause"); 
+            }
+        });
+    });</script>
+  </body>
+</html>
